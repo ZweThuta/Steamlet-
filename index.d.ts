@@ -111,7 +111,7 @@ declare interface ImageWithFallbackProps extends Omit<ImageProps, "src"> {
   src: string | null;
 }
 
-type Visibility = "public" | "private";
+type Visibility = string;
 
 declare interface VideoDetails {
   videoId: string;
@@ -295,3 +295,5 @@ declare interface RecordingHandlers {
   onDataAvailable: (e: BlobEvent) => void;
   onStop: () => void;
 }
+
+
