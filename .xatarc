@@ -1,0 +1,6 @@
+{
+  "databaseURL": "https://Zwe-Thuta-s-workspace-0rovei.ap-southeast-2.xata.sh/db/jsm_steamlet",
+  "codegen": {
+    "output": "src/xata.ts"
+  }
+}
